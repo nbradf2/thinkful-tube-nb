@@ -4,7 +4,7 @@
 /*  General background (html):  #2c363f
     Main background (.wrapper):  #e6e4e3
     Font-color (body):  #2c363f
-    Button color:  #8b0243
+    Button color:  #d90368
     Button text:  #e6e4e3
     border color:  #313b72
 */
@@ -56,7 +56,7 @@ body {
 
 .wrapper h1 {
     font-size: 3rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     padding-top: 1.7rem;
     padding-bottom: 1.7rem;
 }
@@ -83,9 +83,13 @@ body {
 .wrapper form button {
     width: 200px;
     height: 50px;
-    margin-top: 1rem;
+    margin-top: 1.4rem;
     font-size: 1.4rem;
-    background-color: #8b0243;
+    background-color: #d90368;
     color: #e6e4e3;
     border-radius: 10px;
+}
+
+.wrapper form button:hover {
+    background-color: #8b0243;
 }
