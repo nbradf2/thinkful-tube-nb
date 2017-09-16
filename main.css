@@ -61,6 +61,15 @@ body {
     padding-bottom: 1.7rem;
 }
 
+.wrapper h1 a {
+    text-decoration: none;
+}
+
+.wrapper h1 a:visited {
+    text-decoration: none;
+    color: #2c363f;
+}
+
 .wrapper form {
     padding-bottom: 1.7rem;
 }

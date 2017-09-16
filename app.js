@@ -40,7 +40,7 @@ $(document).ready(function () {
             buildHtmlOutput +=
                 `<li>
                     <p>${videosArrayValue.snippet.title}</p>
-                    <a href='https://www.youtube.com/watch?v=${videosArrayValue.id.videoID}' target='_blank'>
+                    <a href='https://www.youtube.com/watch?v=${videosArrayValue.id.videoId}' target='_blank'>
                     <img src='${videosArrayValue.snippet.thumbnails.high.url}'/>
                     </a>
                 </li>`
