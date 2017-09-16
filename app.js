@@ -39,11 +39,11 @@ $(document).ready(function () {
         $.each(videosArray, function (videosArrayKey, videosArrayValue) {
             buildHtmlOutput +=
                 `<li>
-                <p>${videosArrayValue.snippet.title}</p>
-                <a href='https://www.youtube.com/watch?v=${videosArrayValue.id.videoID}' target='_blank'>
-                <img src='${videosArrayValue.snippet.thumbnails.high.url}'/>
-                </a>
-            </li>`
+                    <p>${videosArrayValue.snippet.title}</p>
+                    <a href='https://www.youtube.com/watch?v=${videosArrayValue.id.videoID}' target='_blank'>
+                    <img src='${videosArrayValue.snippet.thumbnails.high.url}'/>
+                    </a>
+                </li>`
         });
 
         //use HTML output to show it in the index.html

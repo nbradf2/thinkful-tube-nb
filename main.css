@@ -67,6 +67,7 @@ body {
 
 .wrapper form label {
     display: none;
+    font-family: "Arimo", sans-serif;
 }
 
 .wrapper form input {
@@ -75,6 +76,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Arimo", sans-serif;
     font-size: 1.2rem;
     text-align: center;
     border-radius: 10px;
@@ -92,4 +94,38 @@ body {
 
 .wrapper form button:hover {
     background-color: #8b0243;
+}
+
+.wrapper #results-section ul {
+    overflow: hidden;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1rem;
+    list-style-type: none;
+}
+
+.wrapper #results-section li {
+    float: left;
+    max-width: 400px;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    padding: 1em;
+    border: 1px solid #d90368;
+    border-radius: 10px;
+    color: #2c363f;
+}
+
+.wrapper #results-section li img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.wrapper #results-section li p {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #d90368;
+    min-height: 4rem;
 }
