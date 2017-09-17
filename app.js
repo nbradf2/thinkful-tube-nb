@@ -48,5 +48,6 @@ $(document).ready(function () {
 
         //use HTML output to show it in the index.html
         $('#results-section ul').html(buildHtmlOutput)
+
     }
 })
